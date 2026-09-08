@@ -162,3 +162,31 @@ Instead of manually searching through large and unfamiliar repositories, users c
                           │
                           ▼
                     FINAL ANSWER
+
+
+```
+### **How to Run**
+
+### **Start the Backend**
+
+```bash
+Open a terminal and run:
+
+cd codebase-navigator/backend
+
+python -m venv .venv
+source .venv/bin/activate
+
+pip install -r requirements.txt
+
+uvicorn main:app --reload
+```
+
+### **Start the Frontend**
+
+```bash
+cd codebase-navigator/frontend
+
+npm install
+npm run dev
+```
