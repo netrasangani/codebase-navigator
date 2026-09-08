@@ -1,4 +1,6 @@
 .venv/
+temp_repo/
 __pycache__/
-.env
 *.pyc
+logs/
+.env
